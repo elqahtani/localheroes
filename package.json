@@ -1,0 +1,25 @@
+{
+  "name": "backend-pahlawan-nasional",
+  "version": "1.0.0",
+  "description": "Simple Api Backend Pahlawan Nasional",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index.js"
+  },
+  "author": "Huda Ridwan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^3.0.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mocha": "^4.1.0",
+    "mongodb": "^2.2.36",
+    "mongoose": "^4.13.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
