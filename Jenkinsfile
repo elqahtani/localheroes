@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 sh 'npm install'
-                sh 'npm start'
+                sh 'pm2 start index.js'
             }
         }
     }
